@@ -1,6 +1,8 @@
 # Unsupervised-Learning-Module
 A simple unsupervised learning package for Node JS. Currently provides only k-means clustering for detecting patterns in data.
 
+This package has no external dependencies.
+
 
 
 ## Installation and Set up
