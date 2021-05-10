@@ -1,0 +1,20 @@
+{
+  "name": "unsupervised-learning",
+  "version": "1.0.0",
+  "description": "A simple unsupervised learning package for Node JS. Currently provides k-means clustering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SatvikVejendla",
+  "license": "MIT",
+  "keywords": [
+    "unsupervised",
+    "learning",
+    "ai",
+    "machine",
+    "learning",
+    "k-cluster",
+    "hierarchical"
+  ]
+}
