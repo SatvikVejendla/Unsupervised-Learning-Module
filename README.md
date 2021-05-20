@@ -1,5 +1,5 @@
 # Unsupervised-Learning-Module
-A simple unsupervised learning package for Node JS. Currently provides only k-means clustering for detecting patterns in data.
+A simple unsupervised learning package for Node JS. Currently provides k-means clustering and hierarchical clustering for detecting patterns in data.
 
 This package has no external dependencies.
 
@@ -15,14 +15,14 @@ npm install unsupervised-learning
 Import the package in your project by typing this line of code at the top of your file.
 
 ```
-const UnsupervisedLearning = require("unsupervised-learning")
+const UL = require("unsupervised-learning")
 ```
 
 
 ## Demo
 
 ```
-let a = new UnsupervisedLearning(
+let a = new UL.KLearning(
   2,
   (init_method = "first"),
   (type = "k-means")
