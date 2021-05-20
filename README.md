@@ -3,6 +3,7 @@ A simple unsupervised learning package for Node JS. Currently provides k-means c
 
 This package has no external dependencies.
 
+Documentation for hierarchical clustering coming soon.
 
 
 ## Installation and Set up
