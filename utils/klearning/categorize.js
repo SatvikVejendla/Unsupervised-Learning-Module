@@ -1,9 +1,9 @@
 function categorize(data, clusters, dimensions) {
-  const distance = require("../math/distance.js");
+  const distance = require("../../math/distance/euclidean.js");
   for (let i = 0; i < data.length; i++) {
     let temp = data[i];
 
-    let min = 1000;
+    let min = Number.MAX_VALUE;
     let minIndex = 0;
     for (let i = 0; i < clusters.length; i++) {
       let clust = clusters[i];

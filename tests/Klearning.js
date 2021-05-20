@@ -1,10 +1,6 @@
-const UnsupervisedLearning = require("./index.js");
+const UL = require("../index.js");
 
-let a = new UnsupervisedLearning(
-  2,
-  (init_method = "first"),
-  (type = "k-means")
-);
+let a = new UL.KLearning(2, (init_method = "first"), (type = "k-means"));
 
 let data = [];
 for (let i = 0; i < 100; i++) {

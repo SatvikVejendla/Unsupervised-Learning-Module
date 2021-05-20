@@ -1,4 +1,4 @@
-const meanValue = require("../math/mean.js");
+const meanValue = require("../../math/mean.js");
 
 function learn(clusters, dimensions) {
   for (let i = 0; i < clusters.length; i++) {
